@@ -3,10 +3,11 @@
 ## How to run:
 
 1. Clone this repository 
-2. Enter the "MazeBFS" folder using ```cd MazeBFS```
-3. Compile using this command: ```g++ -o MazeSimulation BFS.cpp interface.cpp main.cpp```
-4. In terminal, type: ```./MazeSimulation.exe```
-5. click space to simulate every step the robot takes in the virtual map!
+2. Go to the directory that you want this program in and type "git clone " followed by the "HTTPS" link you can find from the "Code" button
+3. Enter the "MazeBFS" folder using ```cd MazeBFS```
+4. Compile using this command: ```g++ -o MazeSimulation BFS.cpp interface.cpp main.cpp```
+5. In terminal, type: ```./MazeSimulation.exe```
+6. click space to simulate every step the robot takes in the virtual map!
 
 ## How it works
 
