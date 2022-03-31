@@ -21,7 +21,8 @@
   - Keeps moving in the direction that it is facing until it reaches a wall
   - When it reaches a wall, it simply turns around until it finds a path that it can go through
   - The path must be that it goes through must:
-   * be traversable(anything that isn't a wall), 
+    - be traversable(anything that isn't a wall)
+   
    * be an unvisited point 
   - Procedure when all 4 surrounding grids are visited/walls:
      -All throughout this simulation, since the robot does not know how the map looks, it makes its own "_virtual map_" that it develops in an array every step it takes in the maze
