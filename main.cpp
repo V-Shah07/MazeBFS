@@ -11,6 +11,11 @@ int cols;
 void Parse()
 {
 	FILE* fp = fopen(FILEPATH, "r");
+	if (fp == NULL)
+	{
+		printf("could not find file!");
+		exit(-1);
+	}
 	fscanf(fp, "%d %d\n", &rows, &cols);
 	char ch;
 	int num;
