@@ -22,9 +22,8 @@
   - When it reaches a wall, it simply turns around until it finds a path that it can go through
   - The path must be that it goes through must:
     - be traversable(anything that isn't a wall)
-   
-   * be an unvisited point 
-  - Procedure when all 4 surrounding grids are visited/walls:
+    - be an unvisited point 
+  - Procedure when all 4 surrounding grids are visited/walls: 
      -All throughout this simulation, since the robot does not know how the map looks, it makes its own "_virtual map_" that it develops in an array every step it takes in the maze
      -Runs BFS using the "_virtual_" map it made and goes to that point since it is the closes unvisited point
      -Once ever single grid has been visited(to ensure no fake victims were left behind), using BFS and the virtual map, the robot will go back to the start
