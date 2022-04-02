@@ -14,6 +14,7 @@
 3. If you are on windows: ```gcc BFS.cpp interface.cpp main.cpp -o MazeSimulation.exe``` should compile and ```MazeSimulation.exe``` should run it
 
 Finally, click space to move the "robot"!
+
 ## How it works
 
 * This program simulates a robot traversing an unknown maze 
