@@ -10,10 +10,11 @@
 6. click space to simulate every step the robot takes in the virtual map!
 ### Alternatively:
 1. Download the files of this repository by zipping it, and then open that folder through file explorer
-2. If you are on a linux based shell: ```g++ -o MazeSimulation BFS.cpp interface.cpp main.cpp``` should compile and ```./MazeSimulation.exe``` should run it
+2. If you are on a linux based shell: ```g++ -o MazeSimulation BFS.cpp interface.cpp main.cpp``` should compile and ```./MazeSimulation``` should run it
 3. If you are on windows: ```gcc BFS.cpp interface.cpp main.cpp -o MazeSimulation.exe``` should compile and ```MazeSimulation.exe``` should run it
 
 Finally, click space to move the "robot"!
+
 ## How it works
 
 * This program simulates a robot traversing an unknown maze 
