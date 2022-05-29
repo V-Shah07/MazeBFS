@@ -25,7 +25,7 @@ Finally, click space to move the "robot"!
   - Click space to simulate every step it takes
   - Keeps moving in the direction that it is facing until it reaches a wall
   - When it reaches a wall, it simply turns around until it finds a path that it can go through
-  - The path must be that it goes through must:
+  - The path that it goes through must:
     - be traversable(anything that isn't a wall)
     - be an unvisited point 
   - Procedure when all 4 surrounding grids are visited/walls: 
